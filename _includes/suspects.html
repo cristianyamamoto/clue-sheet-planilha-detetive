@@ -6,18 +6,24 @@
     </tr>
   {% for suspect in site.data.suspects %}
 
-    {% if suspect.edition == "detetive"%}
-      <tr>
-        <td class="guess-component">{{ suspect.name }}</td>
-        <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-      </tr> 
-    {% endif %}
-    
-    {% if (suspect.base_character or suspect.edition == edition) and suspect.edition != "detetive"%}
+    {% if edition == "detetive"%}
+
+      {% if suspect.edition == edition%}
         <tr>
-            <td class="guess-component">{{ suspect.name }}</td>
-            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-        </tr>
+          <td class="guess-component">{{ suspect.name }}</td>
+          <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+        </tr> 
+      {% endif %}
+
+    {% else %}
+
+      {% if suspect.base_character or suspect.edition == edition %}
+          <tr>
+              <td class="guess-component">{{ suspect.name }}</td>
+              <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+          </tr>
+      {% endif %}
+
     {% endif %}
   
   {% endfor %}
