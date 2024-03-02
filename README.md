@@ -10,7 +10,7 @@ With additional Portuguese version Detetive.
 
 [pt-BR]  
 Planilha simples e interativa para anotações do jogo de tabuleiro Detetive, compátivel para dispositivos móveis.  
-Sem inteções de oferecer vantagem sobre jogadores que utilizam a folha de anotações tradicional.  
+Sem intenções de oferecer vantagem sobre jogadores que utilizam a folha de anotações tradicional.  
 Com versão adicional do Detetive em Português.  
 
 
