@@ -5,11 +5,14 @@
 Simple, interactive detective sheets to use for the board game Clue / Cluedo that are mobile friendly.
 Not intended to offer an advantage over those using the traditional paper sheets.
 
-Short link: [bit.ly/clue-sheet](https://bit.ly/clue-sheet)
+<!-- Short link: [bit.ly/clue-sheet](https://bit.ly/clue-sheet) -->
+With additional Portuguese version Detetive
+Com versão adicional do Detetive em Português
 
 ## Editions
 
 | Edition |
 | ------- |
-| [Clue](https://lowlydba.github.io/clue-sheet/clue) |
-| [Clue Master](https://lowlydba.github.io/clue-sheet/clue-master) |
+| [Clue](https://cristianyamamoto.github.io/clue-sheet-planilha-detetive/clue) |
+| [Clue Master](https://cristianyamamoto.github.io/clue-sheet-planilha-detetive/clue-master) |
+| [Detetive](https://cristianyamamoto.github.io/clue-sheet-planilha-detetive/detetive) |

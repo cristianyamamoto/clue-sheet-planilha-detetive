@@ -31,3 +31,45 @@
   base: false
   edition: master
   emoji: 🐴
+
+# Edição Detetive PT-BR
+
+- name: Espingarda
+  base: false
+  edition: detetive
+  emoji: 🔫
+  
+- name: Pá
+  base: false
+  edition: detetive
+  emoji: ⛏️
+
+- name: Pé-de-cabra
+  base: false
+  edition: detetive
+  emoji: 🔧
+
+- name: Tesoura
+  base: false
+  edition: detetive
+  emoji: ✂️
+
+- name: Arma Química
+  base: false
+  edition: detetive
+  emoji: ☣️
+
+- name: Veneno
+  base: false
+  edition: detetive
+  emoji: ☠️
+
+- name: Soco Inglês
+  base: false
+  edition: detetive
+  emoji: 👊
+
+- name: Faca
+  base: false
+  edition: detetive
+  emoji: 🔪

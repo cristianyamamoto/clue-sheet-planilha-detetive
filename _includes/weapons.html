@@ -5,11 +5,20 @@
       <th>Status</th>
     </tr>
   {% for weapon in site.data.weapons %}
-    {% if weapon.base or weapon.edition == edition %}
-        <tr>
-            <td class="guess-component">{{ weapon.name }}</td>
-            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-        </tr>
+
+    {% if weapon.edition == "detetive"%}
+      <tr>
+        <td class="guess-component">{{ weapon.name }}</td>
+        <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+      </tr> 
+    {% else %}
+      {% if weapon.base or weapon.edition == edition %}
+          <tr>
+              <td class="guess-component">{{ weapon.name }}</td>
+              <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+          </tr>
+      {% endif %}
     {% endif %}
+
   {% endfor %}
   </table>

@@ -75,3 +75,62 @@
   base: false
   edition: master
   emoji: ⛲
+
+
+# Edição Detetive PT-BR
+
+- name: Prefeitura
+  base: false
+  edition: detetive
+  emoji: 🏛️
+
+- name: Restaurante
+  base: false
+  edition: detetive
+  emoji: 🍽️
+
+- name: Floricultura
+  base: false
+  edition: detetive
+  emoji: 💐
+
+- name: Boate
+  base: false
+  edition: detetive
+  emoji: 🪩
+
+- name: Hospital
+  base: false
+  edition: detetive
+  emoji: 🏥
+
+- name: Mansão
+  base: false
+  edition: detetive
+  emoji: 🏡
+
+- name: Cemitério
+  base: false
+  edition: detetive
+  emoji: 🪦
+
+- name: Praça
+  base: false
+  edition: detetive
+  emoji: 🛝
+
+- name: Hotel
+  base: false
+  edition: detetive
+  emoji: 🏨
+
+- name: Banco
+  base: false
+  edition: detetive
+  emoji: 🪙
+
+- name: Estação de Trem
+  base: false
+  edition: detetive
+  emoji: 🚆
+  

@@ -42,3 +42,44 @@
   edition: master
   emoji: 🍑
 
+# Edição Detetive PT-BR
+
+- name: Sargento - Bigode
+  base_character: false
+  edition: detetive
+  emoji: 🥸
+
+- name: Florista - Dona Branca
+  base_character: false
+  edition: detetive
+  emoji: ⬜
+
+- name: Chef de Cozinha - Tony Gourmet
+  base_character: false
+  edition: detetive
+  emoji: 🧑‍🍳
+
+- name: Mordomo - James
+  base_character: false
+  edition: detetive
+  emoji: 🤵
+
+- name: Médica - Dona Violeta
+  base_character: false
+  edition: detetive
+  emoji: 👩‍⚕️
+
+- name: Dançarina - Srta. Rosa
+  base_character: false
+  edition: detetive
+  emoji: 💃
+
+- name: Coveiro - Sérgio Soturno
+  base_character: false
+  edition: detetive
+  emoji: ⚰️
+
+- name: Advogado - Sr. Marinho
+  base_character: false
+  edition: detetive
+  emoji: 🧑‍⚖️

@@ -5,11 +5,20 @@
       <th>Status</th>
     </tr>
   {% for room in site.data.rooms %}
-    {% if room.base or room.edition == edition %}
-        <tr>
-            <td class="guess-component">{{ room.name }}</td>
-            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-        </tr>
+
+    {% if room.edition == "detetive"%}
+      <tr>
+        <td class="guess-component">{{ room.name }}</td>
+        <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+      </tr> 
+    {% else %}
+      {% if room.base or room.edition == edition %}
+          <tr>
+              <td class="guess-component">{{ room.name }}</td>
+              <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+          </tr>
+      {% endif %}
     {% endif %}
+
   {% endfor %}
   </table>
