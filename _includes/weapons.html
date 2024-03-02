@@ -11,13 +11,13 @@
         <td class="guess-component">{{ weapon.name }}</td>
         <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
       </tr> 
-    {% else %}
-      {% if (weapon.base or weapon.edition == edition) && weapon.edition != "detetive" %}
-          <tr>
-              <td class="guess-component">{{ weapon.name }}</td>
-              <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-          </tr>
-      {% endif %}
+    {% endif %}
+
+    {% if (weapon.base or weapon.edition == edition) and weapon.edition != "detetive" %}
+        <tr>
+            <td class="guess-component">{{ weapon.name }}</td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+        </tr>
     {% endif %}
 
   {% endfor %}

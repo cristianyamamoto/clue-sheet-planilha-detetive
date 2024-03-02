@@ -11,13 +11,13 @@
         <td class="guess-component">{{ room.name }}</td>
         <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
       </tr> 
-    {% else %}
-      {% if (room.base or room.edition == edition) && room.edition != "detetive" %}
-          <tr>
-              <td class="guess-component">{{ room.name }}</td>
-              <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-          </tr>
-      {% endif %}
+    {% endif %}
+    
+    {% if (room.base or room.edition == edition) and room.edition != "detetive" %}
+        <tr>
+            <td class="guess-component">{{ room.name }}</td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
+        </tr>
     {% endif %}
 
   {% endfor %}
